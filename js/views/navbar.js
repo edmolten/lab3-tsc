@@ -1,9 +1,11 @@
 var navbarView = {
     init: function(){
-        $('#navbar-username').html("Anonimo");
+        $('#navbar-username').html(window.localStorage.getItem("username"));
+        
         $('#logout-button').click(function(){
-            /*implementar logout*/
-            alert("implementar funcionalidad, redireccionar a la vista login.html");
+            window.localStorage.removeItem("username");
+            window.localStorage.removeItem("group");
+            window.location.href = 'index.html';
         });
 
         $('#reload-button').click(function(){

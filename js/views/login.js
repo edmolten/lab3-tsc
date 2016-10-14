@@ -3,7 +3,9 @@ var loginView = {
         $('#button-login').prop('disabled', true);
 
         $('#button-login').click(function(){
-            /* almacenar credenciales de usuario antes de redireccionar a la vista contribuyentes*/
+            window.localStorage.setItem("username",$('#username').val() );
+            window.localStorage.setItem("group",$('#group').val() );
+
             window.location.href = 'contribuyentes.html';
         });
 
