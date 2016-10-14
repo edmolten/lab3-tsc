@@ -55,8 +55,8 @@ var boletasView = {
 
         $('#confirm-boleta-delete').click(function(){
             var boleta = window.sessionStorage.getItem("selected_boleta");
-            alert("implementar funcionalidad");
-            /*implementar funcionalidad*/
+            var contribuyente =  window.sessionStorage.getItem("contribuyente");
+            boletas.delete(contribuyente, boleta);
         });
     },
 

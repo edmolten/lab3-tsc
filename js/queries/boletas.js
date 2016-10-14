@@ -82,7 +82,35 @@ var boletas = {
                 }
             }
         );
-    }
+    },
 
+    delete: function(contribuyente, boleta){
+        $.ajax(
+            {
+                url : "http://67.205.134.51/contribuyentes/" + contribuyente + "/boletas/" + boleta + "/",
+                contentType : "application/json; charset=UTF-8",
+                dataType : "json",
+                type : "DELETE",
+                processData : false,
+                timeout : 30000,
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader('Authorization', global.authorization);
+                },
+                success : function(json) {
+                    console.log(json);
+                    alert("Boleta borrada con éxito");
+                    location.reload();
+                },
+                error : function(xhr) {
+                    console.log(xhr);
+                    alert("Error en la consulta, ver consola para más detalles");
+
+                },
+                complete : function(xhr, status) {
+
+                }
+            }
+        );
+    }
 
 }
