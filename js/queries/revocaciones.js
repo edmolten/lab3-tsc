@@ -1,5 +1,5 @@
 var revocaciones = {
-    post: function(boleta, data){
+    post: function(data){
         $.ajax(
             {
                 url : "http://67.205.134.51/revocaciones/",

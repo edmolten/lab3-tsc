@@ -34,14 +34,13 @@ var boletasView = {
         })
 
         $('#confirm-revocation-button').click(function(){
+            var contribuyente =  window.sessionStorage.getItem("contribuyente");
             var boleta = window.sessionStorage.getItem("selected_boleta");
             var data = {};
-            data = $('#contribuyente-name').val();
-            data.apellidos = $('#contribuyente-lastnames').val();
-            data.direccion = $('#contribuyente-address').val();
-            data.rut = $('#contribuyente-rut').val();
-            contribuyentes.patch(contribuyente,data);
-
+            data.contribuyente = contribuyente;
+            data.boleta = boleta;
+            data.razon = $('#revocation-reason').val();
+            revocaciones.post(data);
         });
 
         $('#confirm-boleta-edit').click(function(){

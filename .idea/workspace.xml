@@ -33,21 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="revocaciones.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="revocaciones.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/queries/revocaciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/views/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -93,14 +83,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boletas.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="boletas.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/views/boletas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="363">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
               <folding>
-                <marker date="1476478731560" expanded="true" signature="3054:3060" ph=" " />
-                <marker date="1476478731560" expanded="true" signature="3148:3154" ph=" " />
+                <marker date="1476479710685" expanded="true" signature="3020:3026" ph=" " />
+                <marker date="1476479710685" expanded="true" signature="3114:3120" ph=" " />
               </folding>
             </state>
           </provider>
@@ -113,8 +103,8 @@
       <list>
         <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/js/queries/contribuyentes.js" />
-        <option value="$PROJECT_DIR$/js/views/boletas.js" />
         <option value="$PROJECT_DIR$/js/queries/revocaciones.js" />
+        <option value="$PROJECT_DIR$/js/views/boletas.js" />
       </list>
     </option>
   </component>
@@ -330,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476476589361</updated>
-      <workItem from="1476476592148" duration="2515000" />
+      <workItem from="1476476592148" duration="3280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2515000" />
+    <option name="totallyTimeSpent" value="3280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -399,6 +389,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/queries/contribuyentes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/views/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -407,29 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/views/boletas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <marker date="1476478731560" expanded="true" signature="3054:3060" ph=" " />
-            <marker date="1476478731560" expanded="true" signature="3148:3154" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/views/contribuyentes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/queries/contribuyentes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -444,9 +423,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/queries/revocaciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/boletas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <marker date="1476479710685" expanded="true" signature="3020:3026" ph=" " />
+            <marker date="1476479710685" expanded="true" signature="3114:3120" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
